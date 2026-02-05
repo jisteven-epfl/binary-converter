@@ -1,5 +1,9 @@
 # Online Binary Converter
 
+![GitHub Release](https://img.shields.io/github/v/release/jisteven-epfl/binary-calc)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)](https://binary-convertion.vercel.app/)
+
 A simple and interactive web application to convert decimal numbers to 8-bit binary and vice versa.
 
 🚀 **Live Demo:** [https://binary-convertion.vercel.app/](https://binary-convertion.vercel.app/)
