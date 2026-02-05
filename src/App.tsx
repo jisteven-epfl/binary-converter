@@ -45,7 +45,6 @@ function App() {
       inputNumber === "" ? Array(bitsLength).fill(0) : [...binaryArray];
     newArray[id] = binaryArray[id] ^ 1;
 
-    // const newNumber = parseInt(newArray.join(""), 2);
     const newNumber = newArray.reduce((acc, bit) => (acc << 1) | bit, 0);
     resetError();
     setInputNumber(newNumber);
@@ -162,7 +161,6 @@ function App() {
                   outline-none
                   cursor-pointer
                   active:scale-95
-                  
                   ${bit === 1 ? "bg-blue-300 text-white" : "bg-slate-100 text-slate-400"}`}
                 >
                   {bit}
